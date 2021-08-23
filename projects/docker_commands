@@ -1,0 +1,5 @@
+docker build -t techtrends .
+docker run -dp 7111:3111 techtrends
+docker logs sweet_wescoff
+
+"sweet_wescoff" is where my techtrends img is running in it 
