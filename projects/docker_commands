@@ -1,5 +1,10 @@
+### Build docker image named "techtrends" in the current techtrends folder
 docker build -t techtrends .
+
+### Run "techtrends" image on port 7111 with detached mode
 docker run -dp 7111:3111 techtrends
+
+### Retrieve container logs using docker logs <container_ID>
 docker logs sweet_wescoff
 
 "sweet_wescoff" is where my techtrends img is running in it 
